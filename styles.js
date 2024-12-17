@@ -10,5 +10,13 @@ export default createGlobalStyle`
   body {
     margin: 0;
     font-family: system-ui;
+    padding-left: 10px;
   }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
 `;
